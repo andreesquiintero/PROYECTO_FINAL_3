@@ -1,0 +1,21 @@
+/* styles.css */
+/* Tailwind se carga desde el CDN en el HTML */
+/* Aquí puedes agregar estilos personalizados en el futuro */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Animación suave al cambiar vistas */
+.vista {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
